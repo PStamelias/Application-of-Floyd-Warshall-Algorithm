@@ -8,7 +8,7 @@ void solve(int n,int** graph){/*Dynamic Programming*/
 	int value;
 	for(i=1;i<n;i++){
 		for(j=0;j<i;j++)
-			value=cost(i,j,n-1,graph);
+			cost(i,j,n-1,graph);
 		printf("\n");
 	}
 }
